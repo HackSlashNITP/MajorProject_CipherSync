@@ -3,6 +3,7 @@ import './App.css';
 import { Card } from './Component/Card';
 
 import SliderS from './Component/Slider';
+import { Task2 } from './Component/Task2';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
         <br />
         <br />
       </center>
+
+
+      <Task2 />
     </div>
   );
 }
